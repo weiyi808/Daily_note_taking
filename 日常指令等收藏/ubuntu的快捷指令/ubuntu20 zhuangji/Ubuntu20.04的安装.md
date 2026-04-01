@@ -1,7 +1,0 @@
-- 镜像站地址：`http://mirrors.aliyun.com/ubuntu-releases/20.04/` 下载 `ubuntu-20.04.4-desktop-amd64.iso`
-- 烧录软件UltraISO官网：`https://cn.ultraiso.net/`
-- 分区设置：
-    - EFI系统分区（主分区）512M
-    - 交换空间（逻辑分区）16000M（内存大小的两倍）
-    - 挂载点`/`（主分区）剩余所有容量
-    - 笔记本上也需要安装ubuntu，推荐装20.04版本。虚拟机或双系统都可以，如果有长期学习打算推荐双系统

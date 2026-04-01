@@ -1,1 +1,0 @@
-for f in *.mp4; do ffmpeg -i "$f" -pix_fmt yuv420p -c:a copy -movflags +faststart  "./${f%.mp4}_t.mp4";done
