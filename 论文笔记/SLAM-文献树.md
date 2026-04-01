@@ -2,7 +2,7 @@
 
 ## 按技术路线
 ### 激光SLAM
-- （待补充）
+- [[PALoc]]：先验图 + **因子图** 生成 **稠密 6-DoF GT** 轨迹，**退化感知 DM** + **ZUPT**，并推导 **位姿协方差**；FusionPortable 上相对 ICP **地图~+30%/轨迹~+20%**（IEEE TMECH 2024）。
 
 ### 视觉SLAM
 - （待补充）
@@ -22,6 +22,7 @@
 
 ### A级（强增量）
 - [[DAAAM]]：系统级管线完整（几何前端 / 语义提升 / 后端合并 / 区域聚类 / RAG agent），OC-NaVQA 与 SG3D 上有强实验支撑。
+- [[PALoc]]：SLAM **benchmark 真值生成** 方法学：多因子图 + 不确定度 + 地图间接指标，**开源**（PALoc + Cloud_Map_Evaluation）。
 
 ### B级（工程改进）
 - （待补充）
